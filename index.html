@@ -2,8 +2,10 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
     <title>La Suite d'Elisabeth</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Cet appartement à Sarlat de 66 m² entièrement rénové en 2019 est situé au 1er étage d’un immeuble en pierre du 19ème siècle.">
 </head>
 <body>
 
@@ -36,10 +38,9 @@
                     <a href="#reserver" id="nav-droit" >Réserver</a>
                 </div>
             </div>
+
                 <h1> La suite d'Elisabeth </h1>
                 <h2> Un appartement de charme situé en plein coeur de la cité médiévale</h2>
-
-            <p class="location">Location d'appartement à Sarlat</p>
     </div>
     <div class="page2">
         
@@ -56,8 +57,6 @@
                 <a id="bouton-page3" href="//www.w3docs.com/">Description détaillée</a>
             </div>
         </div>
-
-        <p class="location3">Location d'appartement à Sarlat</p>
     </div>
 
     <div class="page4">
@@ -96,34 +95,44 @@
 
                     <div class="formulaire">
                         <div class="formulaire-alignement" >
-                            <div>
-                                <p> <sup>*</sup>Prénom :</p>
+                            <div class="delimation-input">
+                                <sup>*</sup>Prénom :
                                 <input type="text" name="prenom" class="input" placeholder="Elisabeth" required>
                             </div>
 
-                            <div>
-                                <p> <sup>*</sup>Nom :</p>
-                                <input type="text" name="nom" class="input" placeholder="Monereau" required>
+                            <div class="delimation-input">
+                                <sup>*</sup>Nom :
+                                <input type="text" name="nom" class="input droit-contact" placeholder="Monereau" required>
                             </div>
                         </div>
 
                         <div class="formulaire-alignement">
-                            <div>
-                                <p> <sup>*</sup>Email :</p>
+
+                            <div class="delimation-input">
+                                <sup>*</sup>Email :
                                 <input type="email" name="email" class="input" placeholder="Adresse Email" required>
                             </div>
-                            <div>
-                                <p> <sup>*</sup>Téléphone :</p>
-                                <input type="text" name="objet" class="input" placeholder="06 06 06 06 06" required>
+
+                            <div class="delimation-input">
+                                <sup>*</sup>Téléphone :
+                                <input type="text" name="objet" class="input droit-contact" placeholder="06 06 06 06 06" required>
                             </div>
+
                         </div>
 
-                        <div>
-                            <p> <sup>*</sup>Message :</p>
-                            <textarea name="message" rows="5" placeholder="Votre message ..." required></textarea>
+                        <div class="delimation-textarea">
 
+                            <sup>*</sup>Message :
+                            <textarea name="message" class="message"  placeholder="Votre message ..." required></textarea>
 
-                            <button type="submit" value="ok" class="submitpage5" style="float:right;">Envoyer !</button>
+                            <p><sup>*</sup> Champs obligatoires</p>
+
+                            <div>
+                                <input type="checkbox" name="scales">
+                                <label for="scales">Demande de réservation de date</label>
+                              </div>
+
+                            <button type="submit" value="ok" class="submitpage5" >Envoyer !</button>
                         </div>
                     </div>
                 </form>

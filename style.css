@@ -203,20 +203,6 @@ html, body{
   justify-content: center;
   align-items: center;
 } 
-
-
-.location{
-    bottom: 0;
-    z-index: 1;
-    position: absolute;
-    right: 20px;
-}
-.location3{
-  bottom: -200%;
-  z-index: 2;
-  position: absolute;
-  right: 20px;
-}
 .black_page3{
   background-color: rgba(0, 0, 0, 0.6);
   width: 400px;
@@ -338,12 +324,64 @@ p{
   background-color: #0090FF;
   color:white;
   border:0px;
-  width: 130px;
-  height: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:10px;
+  border-radius: 2px;
+  margin-top:30px;
+  font-size:20px;
 }
 .formulaire{
-  margin:20px;
+  margin:40px;
+}
+.delimation-input{
+  width:50%;
+  margin-top:10px;
+  margin-bottom: 10px;
 }
 .input{
-  width : 100%;
+  width : 95%;
+  padding:10px;
+  border-radius:5px;
+  border:0px;
+  text-align:center;
+}
+.droit-contact{
+  float:right;
+}
+.message{
+  width: 100%;
+  height: 150px;
+  border-radius:5px;
+  border:0px;
+  resize: vertical;
+  padding:10px;
+}
+sup{
+  color : #007AD8;
+}
+.delimation-textarea{
+  width: 100%;
+}
+
+@media screen and (max-width: 1350px) {
+  .formulaire-alignement{
+    flex-direction: column;
+  }
+  .input{
+    width : 200%;
+    padding:10px;
+    border-radius:5px;
+    border:0px;
+    text-align:center;
+  }
+  .droit-contact{
+    float:left;
+  }
+
+}
+
+@media screen and (max-width: 1135px) {
+
 }
