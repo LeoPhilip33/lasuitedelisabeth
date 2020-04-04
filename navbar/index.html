@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet"> <!-- Importation de la police Allura-->
+        <link href="https://fonts.googleapis.com/css2?family=Allura&family=Roboto:wght@700&display=swap" rel="stylesheet"> <!-- Roboto B0OLD -->
+        <title>La Suite D'Elisabeth</title>
+    </head>
+    <body>
+        <nav>
+            <div class="nav_gauche"><strong>La Suite d'Elisabeth</strong></div>
+            <div class="nav_droit">
+                <div class="nav_droit_div"><a href="#">ACCUEIL</a></div>
+                <div class="nav_droit_div"><a href="#">GALERIE PHOTO</a></div>
+                <div class="nav_droit_div"><a href="#">LIVRE D'OR</a></div>
+                <div class="nav_droit_div"><a href="#">RESERVER</a></div>
+                <div class="nav_droit_div"><a href="#">MON COMPTE</a></div>
+                <div class="nav_droit_div_mobile"><a href="#"> <img id="nav-dimensions" src="../images/navbar/mobile-nav.png" alt="Navigation mobile"> </a> </div>
+            </div>
+        </nav>
+    </body>
+</html>
+
+<script>
+    (function($) { // Begin jQuery
+  $(function() { // DOM ready
+    // If a link has a dropdown, add sub menu toggle.
+    $('nav ul li a:not(:only-child)').click(function(e) {
+      $(this).siblings('.nav-dropdown').toggle();
+      // Close one dropdown when selecting another
+      $('.nav-dropdown').not($(this).siblings()).hide();
+      e.stopPropagation();
+    });
+    // Clicking away from dropdown will remove the dropdown class
+    $('html').click(function() {
+      $('.nav-dropdown').hide();
+    });
+    // Toggle open and close nav styles on click
+    $('#nav-toggle').click(function() {
+      $('nav ul').slideToggle();
+    });
+    // Hamburger to X toggle
+    $('#nav-toggle').on('click', function() {
+      this.classList.toggle('active');
+    });
+  }); // end DOM ready
+})(jQuery); // end jQuery
+</script>
