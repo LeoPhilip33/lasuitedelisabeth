@@ -1,0 +1,13 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+footer{
+    width:100%;
+    display: flex;
+    background-color: black;
+    color:white;
+}
+.footerflex{
+    width:100%;
+}

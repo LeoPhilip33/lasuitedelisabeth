@@ -38,10 +38,9 @@ a{
     text-decoration: none;
     color:black;
 }
-a:hover {
+.nav_droit_div:hover {
     border-bottom-style: solid;
     border-width:2px;
-    width:40px;
 } 
 .nav_droit_div_mobile{
     display: none;
