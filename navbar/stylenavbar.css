@@ -53,26 +53,45 @@ a{
 .nav_droit_div:hover:after {
     width: 30px;
     transition: .3s;
-} 
-.nav_droit_div_mobile{
-    display: none;
+}
+.menuMclass{
     margin-left:20px;
+    position: relative;
     margin-right:20px;
     margin:15px;
     margin-right:35px;
 }
 
+.menuMclass:after{ 
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .3s;
+}
+
+.menuMclass:hover:after {
+    width: 30px;
+    transition: .3s;
+} 
+
 .menu-mobile{
-   display: none;  
+   display: none;
+}
+
+.couleurnavmobile{
+    color:white;
 }
 
 @media screen and (max-width: 980px) {
-    .nav_droit_div_mobile{
-        display: block;
-        margin-right:35px;
+    .menuM{
+        display:none;
     }
     .nav_droit_div{
-        display:none
+        display:none;
     }
     #nav-dimensions{
         width:30px;
@@ -84,14 +103,13 @@ a{
         white-space:nowrap;
         width:50%;
         font-family: 'Roboto', sans-serif;
-        margin-right:0px;
     }
 
     .icon{
         position: fixed;
         height: 50px;
-        width: 50px;
-        right: 50px;
+        width: 37px;
+        right: 30px;
     }
 
     .hamburger{
@@ -125,18 +143,27 @@ a{
     }
 
     .menu-mobile{
-        display: unset;
+        display: block;
         height: 0;
-        top: 10vh;
         width: 100vw;
         position: fixed;
-        background-color: red;
-        transition: .5s;  
+        background-color: rgba(0,0,0,0.6);
+        transition: .5s;
     }
 
     .menu-mobile.active{
-        height: 90vh;    
-        transition: .5s;    
+        height: 100vh;    
+        transition: .5s;
+        display:block;
+    }
+
+    .menuM.active{
+        display:block;
+    }
+    .menuMclass{
+        margin:40px;
+        font-size:20px;
+        
     }
 
     .icon.active .hamburger{
