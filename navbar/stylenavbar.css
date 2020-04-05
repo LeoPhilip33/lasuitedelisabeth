@@ -30,6 +30,7 @@ nav{
 
 .nav_droit_div{
     margin-left:20px;
+    position: relative;
     margin-right:20px;
     margin:15px;
     margin-right:35px;
@@ -38,9 +39,20 @@ a{
     text-decoration: none;
     color:black;
 }
-.nav_droit_div:hover {
-    border-bottom-style: solid;
-    border-width:2px;
+
+.nav_droit_div:after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .3s;
+}
+.nav_droit_div:hover:after {
+    width: 30px;
+    transition: .3s;
 } 
 .nav_droit_div_mobile{
     display: none;
@@ -48,6 +60,10 @@ a{
     margin-right:20px;
     margin:15px;
     margin-right:35px;
+}
+
+.menu-mobile{
+   display: none;  
 }
 
 @media screen and (max-width: 980px) {
@@ -69,5 +85,74 @@ a{
         width:50%;
         font-family: 'Roboto', sans-serif;
         margin-right:0px;
+    }
+
+    .icon{
+        position: fixed;
+        height: 50px;
+        width: 50px;
+        right: 50px;
+    }
+
+    .hamburger{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 4px;
+        width: 100%;
+        background-color: rgba(0,0,0,1);
+        transition: .5s;
+    }
+
+    .hamburger:after{
+        content: '';
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        top: -10px;
+        background-color: rgba(0,0,0,1);
+        transition: .5s;
+    }
+
+    .hamburger:before{
+        content: '';
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        top: 10px;
+        background-color: rgba(0,0,0,1);
+        transition: .5s;
+    }
+
+    .menu-mobile{
+        display: unset;
+        height: 0;
+        top: 10vh;
+        width: 100vw;
+        position: fixed;
+        background-color: red;
+        transition: .5s;  
+    }
+
+    .menu-mobile.active{
+        height: 90vh;    
+        transition: .5s;    
+    }
+
+    .icon.active .hamburger{
+        background-color: rgba(0,0,0,0);
+        transition: .1s;
+    }
+
+    .icon.active .hamburger:before{
+        top: 0;
+        transform: rotate(135deg);
+        transition: .5s;
+    }
+
+    .icon.active .hamburger:after{
+        top: 0;
+        transform: rotate(-135deg);
+        transition: .5s;
     }
 }
