@@ -17,11 +17,12 @@
                 <div class="nav_droit_div"><a href="#">LIVRE D'OR</a></div>
                 <div class="nav_droit_div"><a href="#">RÉSERVER</a></div>
                 <div class="nav_droit_div"><a href="#">MON COMPTE</a></div>
-                <div class="icon">
-                    <div class="hamburger hamburger-middle"></div>
-                </div>
             </div>
+
         </nav>
+        <div class="icon">
+            <div class="hamburger hamburger-middle"></div>
+        </div>
         <section class="menu-mobile ">
             <div class="menuM">
                 <div class="menuMclass"><a class="couleurnavmobile" href="#">ACCUEIL</a></div>
