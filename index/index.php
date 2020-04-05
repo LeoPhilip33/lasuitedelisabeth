@@ -6,8 +6,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="../navbar/stylenavbar.css">
-    <link type="text/css" rel="stylesheet" href="styleindex.css">
+    <link type="text/css" rel="stylesheet" href="../navbar/stylenavbar.css"><!-- navbar style -->
+    <link type="text/css" rel="stylesheet" href="../footer/footerstyle.css"><!-- footer style -->
+    <link type="text/css" rel="stylesheet" href="styleindex.css"><!-- index style -->
     <title>La Suite d'Elisabeth</title>
 </head>
 <body>
@@ -24,3 +25,6 @@
     </div>
 </body>
 </html>
+<?php
+    include '../footer/footer.php';
+?>

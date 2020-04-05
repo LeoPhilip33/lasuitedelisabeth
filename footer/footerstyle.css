@@ -11,3 +11,6 @@ footer{
 .footerflex{
     width:100%;
 }
+.footerflexflex{
+    display:flex;
+}
