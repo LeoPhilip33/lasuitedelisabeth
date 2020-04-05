@@ -40,7 +40,7 @@ a{
     color:black;
 }
 
-.nav_droit_div:after{
+.nav_droit_div:after{ 
     content: '';
     width: 0;
     height: 3px;
