@@ -2,17 +2,38 @@ html,body{
     margin:0;
     padding:0;
 }
+h1{
+    font-size:130px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+p{
+    font-size:15px;
+}
+.Allura{
+    font-family: 'Allura', cursive;
+}
+.Roboto{
+    font-family: 'Roboto', sans-serif;
+}
 footer{
     background-color: black;
     color:white;
 }
 .footerdelimitation{
     padding:30px;
-    display: flex;
-
+    display:flex;
 }
+.footerdelimitationintermediaire{
+    display: flex;
+    width:50%;
+}
+
 .footerflex{
     width:100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 }
 .footerflexflex{
     display:flex;
@@ -20,10 +41,85 @@ footer{
 .boutonfooter{
     background-color: black;
     color:white;
-    padding:5px;
+    padding:7px;
+    margin-left:20px;
+    border-color: white;
 }
 .footernewsletter{
     background-color:black;
     border: none;
+    padding:10px;
+    font-size:15px;
     border-bottom: 1px solid white;
+    color:white;
+}
+::placeholder{
+    color:white;
+}
+.footercentrerverticalement{
+    display: flex; /* contexte sur le parent */
+    flex-direction: column; /* direction d'affichage verticale */
+    justify-content: center; /* alignement vertical */
+}
+.boutonespacementfooter{
+    margin-left:30px;
+}
+.footerespacement{
+    margin-left:15px;
+}
+.footerfont{
+    font-size:20px;
+}
+.footerplan{
+    width:310px;
+    height:170px;
+}
+.footerliens{
+    text-decoration: none;
+    color:white;
+    text-decoration: underline;
+}
+.checkboxlabel{
+    width:300px;
+}
+
+@media screen and (min-width: 670px) and (max-width: 1300px) {
+    .footerdelimitationintermediaire{
+        display: block;
+        width:50%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .espacementmobilefooter{
+        margin-top:30px;
+    }
+
+    .footerflexflex{
+        margin-top:15px;
+    }
+    .footerflex{
+        margin-left:auto;
+        margin-right:auto;
+        width:auto;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    footer{
+        text-align:center;
+    }
+    .footerdelimitation{
+        display:inline-block;
+    }
+    .footerdelimitationintermediaire{
+        display: block;
+        width:100%;
+    }
+    .espacementmobilefooter{
+        margin-top:30px;
+    }
+    .footerflexflex{
+        margin-top:15px;
+    }
 }
