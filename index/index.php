@@ -41,22 +41,24 @@
         <div class="page2flex">
 
             <div class="flextaillepage2" >
-                <img class="limitationimgpage2" src="../images/1.jpg" alt="Fleche vers le bas pour changer de page">
+                <img class="limitationimgpage2" src="../images/20.jpg" alt="Fleche vers le bas pour changer de page">
             </div>
 
             <div class="flextaillepage2">
-                <img class="limitationimgpage2" src="../images/1.jpg" alt="Fleche vers le bas pour changer de page">
+                <img class="limitationimgpage2" src="../images/5.jpg" alt="Fleche vers le bas pour changer de page">
             </div>
 
         </div>
         <div class="page2flex">
 
             <div class="flextaillepage2" >
-                <img class="limitationimgpage2" src="../images/1.jpg" alt="Fleche vers le bas pour changer de page">
+                <img class="limitationimgpage2" src="../images/13.jpg" alt="Fleche vers le bas pour changer de page">
             </div>
 
             <div class="flextaillepage2">
-                <img class="limitationimgpage2" src="../images/1.jpg" alt="Fleche vers le bas pour changer de page">
+                Réserver l'appartement de vos rêves
+                GALERIE PHOTO
+                <input type="button" value="VOIR LA GALERIE">
             </div>
 
         </div>
