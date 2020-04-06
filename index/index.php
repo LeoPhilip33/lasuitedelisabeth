@@ -16,12 +16,13 @@
         <div class="index1_center">
             <h1 class="Allura"> La suite d'Elisabeth </h1>
             <p class="Roboto"> Un appartement de charme situé en plein cœur de la cité médiévale </p>
-        </div>
-        <div class="footerpage1">
-            <p class="Roboto"> Découvrir </p>
+            <div class="footerpage1">
+                <div class="flechedownlabel Roboto">Découvrir</div>
+                <div><img class="flecheverslebasindex1" src="../images/arrow-down.png" alt="Fleche vers le bas pour changer de page"></div>
+            </div>
         </div>
     </div>
-    <div class="index1">
+    <div class="index2">
     </div>
 </body>
 </html>
