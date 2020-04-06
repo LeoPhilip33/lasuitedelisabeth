@@ -17,12 +17,50 @@
             <h1 class="Allura"> La suite d'Elisabeth </h1>
             <p class="Roboto"> Un appartement de charme situé en plein cœur de la cité médiévale </p>
             <div class="footerpage1">
-                <div class="flechedownlabel Roboto">Découvrir</div>
-                <div><img class="flecheverslebasindex1" src="../images/arrow-down.png" alt="Fleche vers le bas pour changer de page"></div>
+                <div class="flechedownlabel Roboto"> <a class="aUnstyle" href="#galerieindex" >Découvrir</a></div>
+                <div><a href="#galerieindex" ><img class="flecheverslebasindex1" src="../images/arrow-down.png" alt="Fleche vers le bas pour changer de page"></a></div>
             </div>
         </div>
     </div>
-    <div class="index2">
+    <div class="index2" id="galerieindex">
+        <div class="page2flex">
+
+            <div class="flextaillepage2" >
+                Réserver l'appartement de vos rêves
+                GALERIE PHOTO
+                <input type="button" value="VOIR LA GALERIE">
+
+            </div>
+            <div class="flextaillepage2">
+                <img class="limitationimgpage2" src="../images/1.jpg" alt="Fleche vers le bas pour changer de page">
+            </div>
+            
+
+        </div>
+
+        <div class="page2flex">
+
+            <div class="flextaillepage2" >
+                <img class="limitationimgpage2" src="../images/1.jpg" alt="Fleche vers le bas pour changer de page">
+            </div>
+
+            <div class="flextaillepage2">
+                <img class="limitationimgpage2" src="../images/1.jpg" alt="Fleche vers le bas pour changer de page">
+            </div>
+
+        </div>
+        <div class="page2flex">
+
+            <div class="flextaillepage2" >
+                <img class="limitationimgpage2" src="../images/1.jpg" alt="Fleche vers le bas pour changer de page">
+            </div>
+
+            <div class="flextaillepage2">
+                <img class="limitationimgpage2" src="../images/1.jpg" alt="Fleche vers le bas pour changer de page">
+            </div>
+
+        </div>
+
     </div>
 </body>
 </html>

@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+    
 h1{
     font-size:130px;
     margin-block-start: 0em;
@@ -34,16 +38,60 @@ p{
     flex-direction: column;
     color:white;
     position:absolute;
-    margin-top:40vh;
+    left:50%;
+    right:50%;
+    top:90%;
 
 }
 .flecheverslebasindex1{
     height: 25px;
     width: 45px;
+    animation-name: mouvfleche;
+    animation-duration: 3s;
+    animation-iteration-count:infinite ;
 }
+
+@keyframes mouvfleche {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
 .flechedownlabel{
     font-size:30px;
+    margin-left:-45px;
+    margin-bottom: 10px;
 }
 .index2{
-    height: 100vh;
+    
+}
+.flextaillepage2{
+    width:600px;
+    height:600px;
+
+}
+.aUnstyle{
+    text-decoration: none;
+    color:white;
+}
+.page2flex{
+    margin-top:30px;
+    margin-bottom: 30px;
+    display:flex;
+    width:100%;
+    justify-content: space-evenly;
+}
+.limitationimgpage2{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+
 }
