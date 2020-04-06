@@ -3,10 +3,13 @@ html,body{
     padding:0;
 }
 footer{
-    width:100%;
-    display: flex;
     background-color: black;
     color:white;
+}
+.footerdelimitation{
+    padding:30px;
+    display: flex;
+
 }
 .footerflex{
     width:100%;
@@ -14,3 +17,23 @@ footer{
 .footerflexflex{
     display:flex;
 }
+.boutonfooter{
+    background-color: black;
+    color:white;
+    padding:5px;
+}
+.footernewsletter{
+    background-color:black;
+    border: none;
+    border-bottom: 1px solid white;
+}
+a
+zd
+az
+datazd
+az
+dataazd
+az
+datazd
+az
+d
