@@ -80,6 +80,41 @@
         </div>
 
     </div>
+
+    <div class="index3">
+        <div class="tarificationp3">
+            <h2>
+                <span class="tarificationtitrep3 Roboto"> TARIFICATIONS </span>
+            </h2>
+        </div>
+    </div>
+
+    <div class="index4">
+        <div class="Nous-Ecrire">
+            <h2>
+                <span class="Nous-Ecriretitre Roboto"> NOUS ECRIRE </span>
+            </h2>
+            <p class="centernousecrire"> Vous ne trouvez pas la réponse à votre question, nous somme la, vous pouvez nous envoyer vos questions : </p>
+
+            <div class="centerformulaire" >
+                <div>
+                    <div class="flexindex4">
+                        <input class="inputnsecrire" type="text" minlength="3" maxlength="15" placeholder="Prénom" required>
+                        <input class="inputnsecrire" type="text" minlength="3" maxlength="15" placeholder="Nom" required>
+                    </div>
+                    <div class="flexindex4">
+                        <input class="inputnsecrire" type="text" minlength="3" maxlength="8" placeholder="E-mail" required>
+                        <input class="inputnsecrire" type="text" minlength="3" maxlength="8" placeholder="Numéro de téléphone" required>
+                    </div>
+                    <div class="flexindex4">
+                        <textarea></textarea>
+                    </div>
+                    <p> Tous les champs sont obligatoires </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
 <?php

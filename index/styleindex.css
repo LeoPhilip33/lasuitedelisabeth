@@ -145,6 +145,94 @@ p{
     margin-right:150px;
 }
 
+.index3{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+}
+.tarificationp3{
+    height:95vh;
+    width: 95vw;
+    background-color: black;
+    background-image:url(../images/8.jpg);
+    background-repeat:no-repeat;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    background-position: center center;
+}
+.tarificationtitrep3{
+    margin-left:100px;
+    background-color: white;
+    font-size:70px;
+}
+
+.index4{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+}
+.Nous-Ecrire{
+    height:95vh;
+    width: 95vw;
+    background-color: black;
+    background-image:url(../images/filtre/14_filtre.png);
+    background-repeat:no-repeat;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    background-position: center center;
+}
+
+.Nous-Ecriretitre{
+    margin-left:100px;
+    background-color: white;
+    font-size:70px;
+}
+.centernousecrire{
+    text-align: center;
+    color:white;
+}
+.inputnsecrire{
+    width:395px;
+    height: 51px;
+}
+input::placeholder {
+    color: black;
+    font-size:25px;
+    padding-left:23px;
+  }
+
+.flexindex4{
+    display:flex;
+    justify-content: space-between;
+    margin:10px;
+}
+.centerformulaire{
+    display: flex;
+    justify-content: center;
+
+}
+textarea{
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 200px;
+    max-height: 500px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 950px) and (max-width: 1200px) {
+    .txtgalerie{
+        font-size:50px;
+    }
+}
+
 @media only screen and (min-width: 300px) and (max-width: 950px) {
     h1{
         font-size:60px;
