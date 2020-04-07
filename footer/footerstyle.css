@@ -2,11 +2,6 @@ html,body{
     margin:0;
     padding:0;
 }
-h1{
-    font-size:130px;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-}
 p{
     font-size:15px;
 }
@@ -83,7 +78,7 @@ footer{
     width:300px;
 }
 
-@media screen and (min-width: 670px) and (max-width: 1300px) {
+@media only screen and (min-width: 750px) and (max-width: 1330px) {
     .footerdelimitationintermediaire{
         display: block;
         width:50%;
@@ -105,7 +100,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 670px) {
+@media only screen and (max-width: 750px) {
     footer{
         text-align:center;
     }

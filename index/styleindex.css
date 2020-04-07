@@ -40,7 +40,7 @@ p{
     position:absolute;
     left:50%;
     right:50%;
-    top:90%;
+    top:85%;
 
 }
 .flecheverslebasindex1{
@@ -56,8 +56,12 @@ p{
         transform: translateY(0px);
     }
 
+    25% {
+        transform: translateY(25px);
+    }
+
     50% {
-        transform: translateY(20px);
+        transform: translateY(15px);
     }
 
     100% {
@@ -74,24 +78,98 @@ p{
     
 }
 .flextaillepage2{
+    margin:20px;
     width:45%;
-    height:45%x;
-
+    height:45%;
+    display: flex; /* contexte sur le parent */
+    flex-direction: column; /* direction d'affichage verticale */
+    justify-content: center; /* alignement vertical */
 }
 .aUnstyle{
     text-decoration: none;
     color:white;
 }
 .page2flex{
-    margin-top:30px;
-    margin-bottom: 30px;
     display:flex;
     width:100%;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .limitationimgpage2{
     width:100%;
     height:100%;
     object-fit: cover;
+}
+.boutongalerie{
+    background-color: white;
+    color:black;
+    border: solid 4px black;
+    padding:20px;
+    font-size:30px;
+}
+.barregalerie{
+    background-color:black;
+    width:40px;
+    height:2px;
+}
+.petittxtgalerie{
+    font-size:25px;
+    margin-left:15px;
+}
+.petittxtgalerie2{
+    font-size:25px;
+    margin-right:15px;
+}
+.txtgalerie{
+    font-size:70px;
+}
+.flexgalerie{
+    display: flex; /* contexte sur le parent */
+}
+.flexflexgalerie{
+    display: flex; /* contexte sur le parent */
+    flex-direction: column; /* direction d'affichage verticale */
+    justify-content: center; /* alignement vertical */
+    text-align:center;
+}
+.droitepage2{
+    text-align:right;
+}
+.droitefloatpage2{
+    float:right;
+}
+.espacementpage2Desc{
+    margin-right:150px;
+}
 
+@media only screen and (max-width: 950px) {
+    h1{
+        font-size:90px;
+    }
+
+    .page2flex{
+        display: inline-block;
+    }
+    .flextaillepage2{
+        width:100%;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 950px) {
+    h1{
+        font-size:60px;
+    }
+    .flechedownlabel {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .aUnstyle{
+        margin-left:15px;
+    }
+    .flecheverslebasindex1{
+        height: 18px;
+        width:30px;
+    }
+    .flextaillepage2{
+        margin:0px;
+    }
 }
