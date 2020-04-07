@@ -159,7 +159,7 @@ a{
     }
 
     .menu-mobile.active{
-        height: 93vh;    
+        height: 100vh;    
         transition: .5s;
         display:block;
     }

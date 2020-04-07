@@ -26,14 +26,18 @@
         <div class="page2flex">
 
             <div class="flextaillepage2">
-                <div class="flexgalerie">
-                    <div class="flexflexgalerie" >
-                        <div class="barregalerie"></div>
+                <div class="centrerflexpage2">
+                    <div>
+                        <div class="flexgalerie">
+                            <div class="flexflexgalerie" >
+                                <div class="barregalerie"></div>
+                            </div>
+                            <div class="petittxtgalerie Roboto" > Réserver l'appartement de vos rêves </div>
+                        </div>
+                        <div class="txtgalerie Roboto" >GALERIE PHOTO</div>
+                        <a href="#" ><input class="boutongalerie Roboto" type="button" value="VOIR LA GALERIE"></a>
                     </div>
-                    <div class="petittxtgalerie Roboto" > Réserver l'appartement de vos rêves </div>
                 </div>
-                <div class="txtgalerie Roboto" >GALERIE PHOTO</div>
-                <a href="#" ><input class="boutongalerie Roboto" type="button" value="VOIR LA GALERIE"></a>
             </div>
             <div class="flextaillepage2">
                 <img class="limitationimgpage2" src="../images/1.jpg" alt="Fleche vers le bas pour changer de page">
@@ -59,16 +63,20 @@
             </div>
 
             <div class="flextaillepage2">
-                <div class="flexgalerie">
-                    <div class="flexflexgalerie" >
-                        <div class="barregalerie"></div>
+                <div class="centrerflexpage2">
+                    <div>
+                        <div class="flexgalerie">
+                            <div class="petittxtgalerie2 Roboto" > Réserver l'appartement de vos rêves </div>
+                            <div class="flexflexgalerie" >
+                                <div class="barregalerie"></div>
+                            </div>
+                        </div>
+                        <div class="txtgalerie Roboto decalementgachepage2" >DESCRIPTION </div>
+                        <div class="txtgalerie Roboto" >DE LA SUITE</div>
+                        <a href="#" ><input class="boutongalerie Roboto" type="button" value="VOIR LA DESCRIPTION"></a>
                     </div>
-                    <div class="petittxtgalerie Roboto" > Réserver l'appartement de vos rêves </div>
                 </div>
-                <div class="txtgalerie Roboto" >GALERIE PHOTO</div>
-                <a href="#" ><input class="boutongalerie Roboto" type="button" value="VOIR LA GALERIE"></a>
             </div>
-
         </div>
 
     </div>
