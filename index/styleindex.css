@@ -7,14 +7,8 @@ h1{
     margin-block-start: 0em;
     margin-block-end: 0em;
 }
-p{
-    font-size:15px;
-}
 .Allura{
     font-family: 'Allura', cursive;
-}
-.Roboto{
-    font-family: 'Roboto', sans-serif;
 }
 .index1_center{
     color:white;
@@ -180,51 +174,80 @@ p{
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; /* version standardisée */
     background-position: center center;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-
-.Nous-Ecriretitre{
-    margin-left:100px;
-    background-color: white;
-    font-size:70px;
-}
-.centernousecrire{
-    text-align: center;
-    color:white;
-}
-.inputnsecrire{
-    width:395px;
-    height: 51px;
-}
-input::placeholder {
-    color: black;
-    font-size:25px;
-    padding-left:23px;
-  }
-
-.flexindex4{
-    display:flex;
-    justify-content: space-between;
-    margin:10px;
-}
-.centerformulaire{
+.nsEcrire{
     display: flex;
     justify-content: center;
-
 }
-textarea{
+
+
+input[type=text], textarea, input[type=email] {
     width: 100%;
-    min-width: 100%;
-    max-width: 100%;
-    min-height: 200px;
-    max-height: 500px;
-}
+    padding: 12px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    width:150px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: black;
+    color:white;
+  }
+  
+  .container {
+    /* Ajouter box-sizing */
+    width: 70%;
+    max-width: 1000px;
+  }
+  input{
+      font-size: 20px;
+  }
+  textarea{
+      font-size: 20px;
+      width: 100%;
+      min-height: 200px;
+      max-height: 300px;
+  
+  }
 
-
-
-
-
-
-
+  ::placeholder {
+    color: black;
+    font-size: 20px;
+  }
+  .flexcontainer{
+      display:flex;
+  }
+  .espacementflex{
+      margin-left:25px;
+  }
+  .centerbouton{
+    display: flex;
+    justify-content: center;
+  }
+  .centercontainerecrire{
+      text-align: center;
+  }
+  .couleurblanche{
+      color:white;
+  }
+  .modificationp{
+      margin-block-start: -1em;
+  }
 
 
 @media only screen and (min-width: 950px) and (max-width: 1200px) {
@@ -233,10 +256,17 @@ textarea{
     }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 950px) {
+@media only screen and (min-width: 0px) and (max-width: 950px) {
     h1{
         font-size:60px;
     }
+    .tarificationtitrep3{
+        font-size:50px;
+    }
+    input[type=submit] {
+        width:100%;
+    }
+
     .flechedownlabel {
         font-size: 20px;
         margin-bottom: 10px;
@@ -271,8 +301,15 @@ textarea{
     .petittxtgalerie2{
         margin-bottom: 10px;
     }
-}
-@media only screen and (min-width: 0px) and (max-width: 850px) {
+    .flexcontainer{
+        display : inline-block;
+        vertical-align : middle;
+        line-height : 1.1;
+        width:100%;
+    }
+    .espacementflex{
+        margin-left:0px;
+    }
     .txtgalerie{
         font-size: 30px;
     }
