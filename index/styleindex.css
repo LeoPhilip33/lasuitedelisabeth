@@ -7,6 +7,12 @@ h1{
     margin-block-start: 0em;
     margin-block-end: 0em;
 }
+
+input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
 .Allura{
     font-family: 'Allura', cursive;
 }
