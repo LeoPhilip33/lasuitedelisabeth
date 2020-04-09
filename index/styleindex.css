@@ -372,6 +372,22 @@ input[type=text], textarea, input[type=email] {
         align-items: center;
     }
 
+    .index3prixgrand{
+        background-color: rgba(255, 255, 255, 0.4);
+        width:20vw;
+        height: 40vh;
+        max-width: 330px;
+        min-width: 270px;
+        
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .separationmobile{
+        margin:10px;
+    }
+
     
 }
 
@@ -443,4 +459,91 @@ input[type=text], textarea, input[type=email] {
         font-size:10px;
         padding:10px;
     }
+}
+
+
+@media only screen and (min-width: 650px) and (max-width: 950px) {
+
+    .flexindex3{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .index3prixgrand{
+        background-color: rgba(255, 255, 255, 0.4);
+        width:20vw;
+        height: 40vh;
+        max-width: 330px;
+        min-width: 270px;
+        
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .separationmobile{
+        margin:10px;
+    }
+
+    
+}
+
+@media only screen and (min-width: 0px) and (max-width: 650px) {
+
+    .mobileindex3{
+        flex-direction: column;
+    }
+
+    .flexindex3{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .index3prixgrand{
+        background-color: rgba(255, 255, 255, 0.4);
+        width:20vw;
+        height: 40vh;
+        max-width: 330px;
+        min-width: 270px;
+        
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .separationmobile{
+        margin:10px;
+    }
+
+    .index3{
+        height:150vh;
+    }
+    .tarificationp3{
+        height:100%;
+    }
+
+    .font40{
+        font-size:25px;
+    }
+
+    .prixindex3{
+        font-size:50px;
+    }
+    .couleurindex3{
+        height:80px;
+    }
+
+    .index3prixgrand{
+        height:300px;
+    }
+
+    .index3prix{
+        height: 300px;
+    }
+    
+    
 }

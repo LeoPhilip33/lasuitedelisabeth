@@ -103,6 +103,9 @@
                             <input class="boutonindex3 Roboto" type="button" value="RÉSERVER">
                         </div>
                     </div>
+
+                    <div class="separationmobile">
+                    </div>
                     
                     <div class="index3prixgrand">
                         <div class="centerflexindex3">
@@ -125,6 +128,8 @@
 
                 <div class="espacementindex3">
                 </div>
+                <div class="separationmobile">
+                </div>
                 
                 <div class="mobileindex3">
                     <div class="flexindex3">
@@ -144,6 +149,9 @@
                                 </div>
                                 <input class="boutonindex3 Roboto" type="button" value="RÉSERVER">
                             </div>
+                        </div>
+
+                        <div class="separationmobile">
                         </div>
 
                         <div class="index3prix">
