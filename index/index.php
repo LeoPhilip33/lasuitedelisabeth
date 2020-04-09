@@ -84,73 +84,88 @@
     <div class="index3">
         <div class="tarificationp3">
 
-            <div class="flexindex3">
-                <div class="index3prix">
-                    <div>
-                        135<sup>€</sup><sub>/nuit</sub>
-                    </div>
-                    <div class="couleurindex3">
-                        Moyenne saison
-                        <div>
-                            AFFLUENCE MODÉRÉE
+            <div class="mobileindex3">
+                <div class="flexindex3">
+                    <div class="index3prix">
+                        <div class="centerflexindex3">
+                            <div class="Roboto">
+                                <span class="prixindex3"> 135<sup>€</sup></span><sub class="nuittxt">/nuit</sub>
+                            </div>
+                            <div class="couleurindex3">
+                                    <span class="font40 Roboto"> Moyenne saison </span>
+                                <div>
+                                    <span class="font20 Roboto">AFFLUENCE MODÉRÉE </span>
+                                </div>
+                            </div>
+                            <div class="Roboto decalementtxtindex3">
+                                La Moyenne saison est comprise entre le 1 <sup>er</sup> avril - 30 juin et 1<sup>er</sup> au 30 Septembre
+                            </div>
+                            <input class="boutonindex3 Roboto" type="button" value="RÉSERVER">
                         </div>
                     </div>
-                    <div>
-                        La Moyenne saison est comprise entre le 1 <sup>er</sup> avril - 30 juin et 1<sup>er</sup> au 30 Septembre
+                    
+                    <div class="index3prixgrand">
+                        <div class="centerflexindex3">
+                            <div class="Roboto">
+                                <span class="prixindex3">120<sup>€</sup></span><sub class="nuittxt">/nuit</sub>
+                            </div>
+                            <div class="couleurindex3">
+                                    <span class="font40 Roboto">Basse saison</span>
+                                <div>
+                                    <span class="font20 Roboto">FAIBLE AFFLUENCE</span>
+                                </div>
+                            </div>
+                            <div class="Roboto decalementtxtindex3">
+                            La Basse saison est comprise entre le 1<sup>er</sup> janvier - 31 mars et 1<sup>er</sup> octobre - 31 décembre.
+                            </div>
+                            <input class="boutonindex3 Roboto" type="button" value="RÉSERVER">
+                        </div>
                     </div>
-                    <input class="boutonindex3 Roboto" type="button" value="RÉSERVER">
+                </div>
+
+                <div class="espacementindex3">
                 </div>
                 
-                <div class="index3prixgrand">
-                    <div>
-                        120<sup>€</sup><sub>/nuit</sub>
-                    </div>
-                    <div class="couleurindex3">
-                        Basse saison
-                        <div>
-                            FAIBLE AFFLUENCE
+                <div class="mobileindex3">
+                    <div class="flexindex3">
+                        <div class="index3prixgrand">
+                            <div class="centerflexindex3">
+                                <div class="Roboto">
+                                    <span class="prixindex3">105<sup>€</sup></span><sub class="nuittxt">/nuit</sub>
+                                </div>
+                                <div class="couleurindex3">
+                                        <span class="font40 Roboto">Moyenne saison</span>
+                                    <div>
+                                        <span class="font20 Roboto">FAIBLE AFFLUENCE</span>
+                                    </div>
+                                </div>
+                                <div class="Roboto decalementtxtindex3">
+                                La Basse saison est comprise entre le 1<sup>er</sup> janvier - 31 mars et 1<sup>er</sup> octobre - 31 décembre.
+                                </div>
+                                <input class="boutonindex3 Roboto" type="button" value="RÉSERVER">
+                            </div>
+                        </div>
+
+                        <div class="index3prix">
+                            <div class="centerflexindex3">
+                                <div class="Roboto">
+                                    <span class="prixindex3">150<sup>€</sup></span><sub class="nuittxt">/nuit</sub>
+                                </div>
+                                <div class="couleurindex3">
+                                        <span class="font40 Roboto">Moyenne saison</span>
+                                    <div>
+                                        <span class="font20 Roboto">AFFLUENCE MODÉRÉE</span>
+                                    </div>
+                                </div>
+                                <div class="Roboto decalementtxtindex3">
+                                    La Moyenne saison est comprise entre le 1 <sup>er</sup> avril - 30 juin et 1<sup>er</sup> au 30 Septembre
+                                </div>
+                                <input class="boutonindex3 Roboto" type="button" value="RÉSERVER">
+                            </div>
                         </div>
                     </div>
-                    <div>
-                    La Basse saison est comprise entre le 1<sup>er</sup> janvier - 31 mars et 1<sup>er</sup> octobre - 31 décembre.
-                    </div>
-                    <input class="boutonindex3 Roboto" type="button" value="RÉSERVER">
                 </div>
-
-                <div class="index3prixgrand">
-                    <div>
-                        120<sup>€</sup><sub>/nuit</sub>
-                    </div>
-                    <div class="couleurindex3">
-                        Basse saison
-                        <div>
-                            FAIBLE AFFLUENCE
-                        </div>
-                    </div>
-                    <div>
-                    La Basse saison est comprise entre le 1<sup>er</sup> janvier - 31 mars et 1<sup>er</sup> octobre - 31 décembre.
-                    </div>
-                    <input class="boutonindex3 Roboto" type="button" value="RÉSERVER">
-                </div>
-
-                <div class="index3prix">
-                    <div>
-                        135<sup>€</sup><sub>/nuit</sub>
-                    </div>
-                    <div class="couleurindex3">
-                        Moyenne saison
-                        <div>
-                            AFFLUENCE MODÉRÉE
-                        </div>
-                    </div>
-                    <div>
-                        La Moyenne saison est comprise entre le 1 <sup>er</sup> avril - 30 juin et 1<sup>er</sup> au 30 Septembre
-                    </div>
-                    <input class="boutonindex3 Roboto" type="button" value="RÉSERVER">
-                </div>
-
             </div>
-
         </div>
     </div>
 
