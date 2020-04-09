@@ -82,6 +82,9 @@
     </div>
 
     <div class="index3">
+        <div class="titreindex3 Roboto">
+            TARIFICATIONS
+        </div>
         <div class="tarificationp3">
 
             <div class="mobileindex3">
@@ -209,6 +212,3 @@
 
 </body>
 </html>
-<?php
-    include '../footer/footer.php';
-?>

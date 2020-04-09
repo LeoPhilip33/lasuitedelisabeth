@@ -18,7 +18,6 @@
                 <div class="nav_droit_div"><a href="#">RÉSERVER</a></div>
                 <div class="nav_droit_div"><a href="#">MON COMPTE</a></div>
             </div>
-
         </nav>
         <div class="icon">
             <div class="hamburger hamburger-middle"></div>

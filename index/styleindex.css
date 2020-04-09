@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
 }
     
 h1{
@@ -11,7 +12,6 @@ h1{
 input{
     -webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none;
 }
 .Allura{
     font-family: 'Allura', cursive;
@@ -149,6 +149,14 @@ input{
     height:100vh;
     display: flex;
     justify-content: center;
+    position: relative;
+}
+.titreindex3{
+    position: absolute;
+    top: -40px;
+    left: 5%;
+    background-color: white;
+    font-size: 70px;
 }
 .tarificationp3{
     height:95vh;
@@ -245,8 +253,8 @@ input{
 }
 .mobileindex3{
     display:flex;
-}
 
+}
 
 
 
@@ -520,7 +528,7 @@ input[type=text], textarea, input[type=email] {
     }
 
     .index3{
-        height:150vh;
+        height:200vh;
     }
     .tarificationp3{
         height:100%;
@@ -534,16 +542,53 @@ input[type=text], textarea, input[type=email] {
         font-size:50px;
     }
     .couleurindex3{
-        height:80px;
+        height:60px;
     }
 
     .index3prixgrand{
-        height:300px;
+        width: 85%;
+        height: 300px;
+        max-width: 360px;
+        min-width: 270px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .index3prix{
         height: 300px;
+        width: 20vw;
     }
-    
-    
+
+    .boutonindex3{
+        background-color: black;
+        color:white;
+        border: solid 0px;
+        padding:10px;
+        padding-left:30px;
+        padding-right:30px;
+        font-size:12px;
+    }
+    .font20{
+        font-size: 14px;
+    }    
+
+    .mobileindex3{
+        display:flex;        
+    }
+
+
+    input[type=text], textarea, input[type=email] {
+        width: 100%;
+        padding: 9px;
+        border: 2px solid black;
+        box-sizing: border-box;
+        margin-top: 0px;
+        margin-bottom: 8px;
+        resize: vertical;
+      }
+
+      .modificationp{
+        margin-block-start: 0.1em;
+    }
 }
