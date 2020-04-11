@@ -8,107 +8,100 @@ html,body{
 footer{
     background-color: black;
     color:white;
-}
-.footerdelimitation{
-    padding:30px;
-    display:flex;
-}
-.footerdelimitationintermediaire{
-    display: flex;
-    width:50%;
-}
-
-.footerflex{
-    width:100%;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-}
-.footerflexflex{
-    display:flex;
-}
-.boutonfooter{
-    background-color: black;
-    color:white;
-    padding:7px;
-    margin-left:20px;
-    border-color: white;
-}
-.footernewsletter{
-    background-color:black;
-    border: none;
-    padding:10px;
-    font-size:15px;
-    border-bottom: 1px solid white;
-    color:white;
-}
-::placeholder{
-    color:white;
-}
-.footercentrerverticalement{
-    display: flex; /* contexte sur le parent */
-    flex-direction: column; /* direction d'affichage verticale */
-    justify-content: center; /* alignement vertical */
-}
-.boutonespacementfooter{
-    margin-left:30px;
-}
-.footerespacement{
-    margin-left:15px;
-}
-.footerfont{
-    font-size:20px;
+    width: 100%;
 }
 .footerplan{
     width:310px;
     height:170px;
 }
-.footerliens{
-    text-decoration: none;
-    color:white;
-    text-decoration: underline;
+.lienfooter{
+    color: white;
 }
-.checkboxlabel{
-    width:300px;
+.flexfooter{
+    padding:30px;
+    justify-content: space-evenly;
+    display: flex;
+}
+.centrerfooterflex{
+    display:flex;
+    flex-direction: column;
+}
+.rowflexfooter{
+    display: flex;
+}
+.centrerfooterloc{
+    margin-left:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.delimitationimg{
+    width:35px;
+}
+.cgufooter{
+    display: flex;
+    justify-content: space-between;
+}
+.politiquesfooter{
+    text-align: center;
+}
+.centermobileflex{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-@media only screen and (min-width: 750px) and (max-width: 1330px) {
-    .footerdelimitationintermediaire{
-        display: block;
-        width:50%;
-        display: flex;
-        justify-content: space-around;
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
+
+    .flexfooter{
         flex-direction: column;
     }
-    .espacementmobilefooter{
-        margin-top:30px;
-    }
 
-    .footerflexflex{
-        margin-top:15px;
+    .cgufooter{
+        width:200px;
     }
-    .footerflex{
-        margin-left:auto;
-        margin-right:auto;
-        width:auto;
+    .politiquesfooter{
+        text-align: center;
+    }
+    .centermobileflex{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top:15px;
+        height:140px;
     }
 }
+@media only screen and (min-width: 0px) and (max-width: 400px) {
 
-@media only screen and (max-width: 750px) {
-    footer{
-        text-align:center;
+    .flexfooter{
+        flex-direction: column;
     }
-    .footerdelimitation{
-        display:inline-block;
+
+    .cgufooter{
+        width:200px;
     }
-    .footerdelimitationintermediaire{
-        display: block;
-        width:100%;
+    .politiquesfooter{
+        text-align: center;
     }
-    .espacementmobilefooter{
-        margin-top:30px;
+    .centermobileflex{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top:15px;
+        height:140px;
     }
-    .footerflexflex{
-        margin-top:15px;
+
+    .footerplan{
+        width:250px;
+        height:140px;
+    }
+
+    .footsizemobile{
+        margin-left:-4px;
+        font-size:13px;
+        text-align: center;
+    }
+    .footersizemobileimg{
+        width:22px;
     }
 }

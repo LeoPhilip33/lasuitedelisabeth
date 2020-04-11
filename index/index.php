@@ -181,6 +181,9 @@
     </div>
 
     <div class="index4">
+    <div class="Roboto alignementdroittitre">
+            NOUS ECRIRE
+        </div>
         <div class="Nous-Ecrire">
             <div class="nsEcrire">
                 <div class="container">
@@ -196,7 +199,7 @@
                             <input class="espacementflex" type="text" placeholder="Numéro de téléhpone">
                         </div>
 
-                        <textarea placeholder="Votre message ..." style="height:200px"></textarea>
+                        <textarea placeholder="Votre message ..." ></textarea>
 
                         <p class="couleurblanche modificationp Roboto"> Tous les champs sont obligatoires </p>
 
@@ -210,5 +213,8 @@
         </div>
     </div>
 
+<?php
+    include '../footer/footer.php';
+?>
 </body>
 </html>

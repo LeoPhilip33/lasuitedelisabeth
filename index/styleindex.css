@@ -1,6 +1,5 @@
 html{
     scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
 }
     
 h1{
@@ -237,9 +236,6 @@ input{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-
-
-
 }
 
 .espacementindex3{
@@ -256,34 +252,21 @@ input{
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .index4{
     height:100vh;
     display: flex;
     justify-content: center;
+    position: relative;
 }
+
+.titreindex3droit{
+    position: absolute;
+    top: -40px;
+    left: 5%;
+    background-color: white;
+    font-size: 70px;
+}
+
 .Nous-Ecrire{
     height:95vh;
     width: 95vw;
@@ -341,7 +324,6 @@ input[type=text], textarea, input[type=email] {
       width: 100%;
       min-height: 200px;
       max-height: 300px;
-  
   }
 
   ::placeholder {
@@ -366,6 +348,14 @@ input[type=text], textarea, input[type=email] {
   }
   .modificationp{
       margin-block-start: -1em;
+  }
+
+  .alignementdroittitre{
+    position: absolute;
+    top: -40px;
+    right:5%;
+    background-color: white;
+    font-size: 70px;
   }
 
 @media only screen and (min-width: 950px) and (max-width: 1200px) {
@@ -511,6 +501,14 @@ input[type=text], textarea, input[type=email] {
         align-items: center;
     }
 
+    .alignementdroittitre{
+        position: absolute;
+        top: -20px;
+        right:5%;
+        background-color: white;
+        font-size: 35px;
+      } 
+
     .index3prixgrand{
         background-color: rgba(255, 255, 255, 0.4);
         width:20vw;
@@ -590,5 +588,18 @@ input[type=text], textarea, input[type=email] {
 
       .modificationp{
         margin-block-start: 0.1em;
+    }
+
+    .titreindex3{
+        top: -20px;
+        left: 5%;
+        font-size: 35px;
+    }
+
+    textarea{
+        font-size: 20px;
+        width: 100%;
+        min-height: 100px;
+        max-height: 300px;
     }
 }
