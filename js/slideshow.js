@@ -1,57 +1,55 @@
-// Function for Fade-slider
+var controls = document.querySelectorAll('.controls');
+for(var i=0; i<controls.length; i++){
+	controls[i].style.display = 'inline-block';
+}
 
-let slides,
-    curSlide = 0,
-    countValCur,
-    countValSum,
-    prevBtn,
-    nextBtn,
-    slInterval = setInterval(nextSlide, 2500);
+var slides = document.querySelectorAll('#slides .slide');
+var currentSlide = 0;
+var slideInterval = setInterval(nextSlide,2000);
 
-slides = document.querySelectorAll('.fade-slider-item');
-countValCur = document.querySelector('.fade-sl-counter .current');
-countValSum = document.querySelector('.fade-sl-counter .sum');
-prevBtn = document.querySelector('.fade-arrow-prev');
-nextBtn = document.querySelector('.fade-arrow-next');
+function nextSlide(){
+	goToSlide(currentSlide+1);
+}
 
-countValCur.innerHTML = ''+(curSlide + 1)+'';
-countValSum.innerHTML = '/'+slides.length+'';
+function previousSlide(){
+	goToSlide(currentSlide-1);
+}
 
-prevBtn.onclick = function() {
-  pauseSlideshow();
-  prevSlide();
-  playSlideshow();
-};
+function goToSlide(n){
+	slides[currentSlide].className = 'slide';
+	currentSlide = (n+slides.length)%slides.length;
+	slides[currentSlide].className = 'slide showing';
+}
 
-nextBtn.onclick = function() {
-  pauseSlideshow();
-  nextSlide();
-  playSlideshow();
-};
 
-function nextSlide() {
-  changeSlide(curSlide+1);
-};
-
-function prevSlide() {
-  changeSlide(curSlide-1);
-};
-
-function changeSlide(n) {
-  slides[curSlide].className = 'fade-slider-item';
-  curSlide = (n + slides.length) %slides.length;
-  slides[curSlide].className = 'fade-slider-item showing';
-  
-  countValCur.innerHTML = ''+(curSlide + 1)+'';
-  countValSum.innerHTML = '/'+slides.length+'';
-};
+var playing = true;
+var pauseButton = document.getElementById('pause');
 
 function pauseSlideshow(){
-  clearInterval(slInterval);
-};
+	pauseButton.innerHTML = '&#9658;'; // play character
+	playing = false;
+	clearInterval(slideInterval);
+}
 
 function playSlideshow(){
-  slInterval = setInterval(nextSlide, 2500);
+	pauseButton.innerHTML = '&#10074;&#10074;'; // pause character
+	playing = true;
+	slideInterval = setInterval(nextSlide,2000);
+}
+
+pauseButton.onclick = function(){
+	if(playing){ pauseSlideshow(); }
+	else{ playSlideshow(); }
 };
 
-// End Fade-slider
+var next = document.getElementById('next');
+var previous = document.getElementById('previous');
+
+next.onclick = function(){
+	pauseSlideshow();
+	nextSlide();
+};
+previous.onclick = function(){
+	pauseSlideshow();
+	previousSlide();
+};
