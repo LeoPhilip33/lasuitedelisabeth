@@ -1,0 +1,103 @@
+.margin-top{
+    margin-top:30px;
+}
+
+.wrapper{
+  max-width: 1000px;
+  margin: 0 auto 100px auto;
+}
+  
+.fade-slider-container{
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.fade-slider{
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 410px;
+  height: 410px;
+}
+  
+.fade-slider-item{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  color: white;
+  font-weight: bold;
+  width: 400px;
+  height: 400px;
+  opacity: 0.1;
+  z-index: 1;
+  transition: opacity 0.4s;
+}
+  
+.fade-slider-item{
+  border-radius: 10px;
+}
+  
+.showing{
+  opacity: 1;
+  z-index: 10;
+  transition: opacity 0.4s;
+}
+
+.fade-slider-item:nth-child(n+1){
+  background-color: red
+}
+  
+.fade-slider-item:nth-child(2n){
+  background-color: blue
+}
+  
+.fade-slider-item:nth-child(3),
+.moving-slider-item:nth-child(3){
+    background-color: grey
+}
+  
+.fade-slider-item:nth-child(3n){
+  background-color: #f432f5;
+}
+  
+.fade-slider-item:nth-child(5),
+.moving-slider-item:nth-child(5){
+    background-color: #cd5 ;
+}
+  
+.fade-slider-item:nth-child(6),
+.moving-slider-item:nth-child(6){
+   background-color: #fd6;
+}
+  
+.fade-controls{
+  display: flex;
+  justify-content: space-evenly;
+}
+  
+.fade-sl-arrow{
+  border-radius: 50%;
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+  
+.fade-sl-counter{
+  font-size: 22px;
+  background-color: black;
+  // border-radius: 10px;
+  padding: 4px 20px;
+  color: white;
+  opacity: 0.75;
+}
