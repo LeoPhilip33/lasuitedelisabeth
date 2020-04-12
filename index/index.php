@@ -22,7 +22,8 @@
             </div>
         </div>
     </div>
-    <div class="index2" id="galerieindex">
+    <span id="galerieindex"></span>
+    <div class="index2">
         <div class="page2flex">
 
             <div class="flextaillepage2">
