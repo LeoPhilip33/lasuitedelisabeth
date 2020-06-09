@@ -157,12 +157,54 @@ function w3RemoveClass(element, name) {
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
+  btns[i].addEventListener("click", function() {
     var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
+    current[0].classList.toggle('active');
+    this.classList.toggle('active');
   });
 }
+
+var btn1 = document.querySelector('.all');
+var btn2 = document.querySelector('.salon');
+var btn3 = document.querySelector('.cuisine');
+var btn4 = document.querySelector('.chambre');
+var btn5 = document.querySelector('.sdb');
+var btn6 = document.querySelector('.vers');
+var btn7 = document.querySelector('.terrasse');
+
+btn2.addEventListener('click', ()=>{
+  btn1.classList.remove('active');
+})
+
+btn3.addEventListener('click', ()=>{
+  btn1.classList.remove('active');
+})
+
+btn4.addEventListener('click', ()=>{
+  btn1.classList.remove('active');
+})
+
+btn5.addEventListener('click', ()=>{
+  btn1.classList.remove('active');
+})
+
+btn6.addEventListener('click', ()=>{
+  btn1.classList.remove('active');
+})
+
+btn7.addEventListener('click', ()=>{
+  btn1.classList.remove('active');
+})
+
+btn1.addEventListener('click', ()=>{
+  btn2.classList.remove('active');
+  btn3.classList.remove('active');
+  btn4.classList.remove('active');
+  btn5.classList.remove('active');
+  btn6.classList.remove('active');
+  btn7.classList.remove('active');
+})
+
 
 
 
