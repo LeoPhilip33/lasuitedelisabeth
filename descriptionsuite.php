@@ -310,7 +310,7 @@
             </div>
             <div class="conditionsstyle">
                 <h3 class="titleconditions"> Service de ménage obligatoire </h3> 
-                <p>80 euros à régler à l'arrivé  (au moment du départ, assurez-vous d’avoir vidé le réfrigérateur et le lave-vaisselle, de ne pas avoir laissé de vaisselle sale, d’avoir sorti les poubelles).</p>
+                <p>60 euros à régler à l'arrivé  (au moment du départ, assurez-vous d’avoir vidé le réfrigérateur et le lave-vaisselle, de ne pas avoir laissé de vaisselle sale, d’avoir sorti les poubelles).</p>
             </div>
         </div>
     </div>

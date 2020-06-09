@@ -126,8 +126,78 @@
             atteinte. Conformément à la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, vous
             disposez par ailleurs d'un droit de suppression sur vos données que vous pouvez exercer à tout moment en
             prenant contact avec l'Éditeur.
+
+            <br> <br>
+
+            <span class="def-cgu"> Suppression des données après 3 ans d'inactivité </span> <br>
+            Pour des raisons de sécurité, si vous ne vous êtes pas authentifié sur le Site pendant une période de trois ans, vous
+            recevrez un e-mail vous invitant à vous connecter dans les plus brefs délais, sans quoi vos données seront
+            supprimées de nos bases de données.
+
+        </div>
+
+        <div class="inter-regles">
+            <p class="def-cgu">
+                <span class="site-def">Suppression du compte</span>
+            </p>
+
+            <span class="def-cgu"> Suppression du compte à la demande </span> <br>
+            L'Utilisateur a la possibilité de supprimer son Compte à tout moment, par simple demande à l'Éditeur OU par le
+            menu de suppression de Compte présent dans les paramètres du Compte le cas échéant.
+
+            <br> <br>
+
+            <span class="def-cgu"> Suppression du compte en cas de violation des CGU </span> <br>
+            En cas de violation d'une ou de plusieurs dispositions des CGU ou de tout autre document incorporé aux
+            présentes par référence, l'Éditeur se réserve le droit de mettre fin ou restreindre sans aucun avertissement
+            préalable et à sa seule discrétion, votre usage et accès aux services, à votre compte et à tous les Sites.
+
         </div>
        
+        <div class="inter-regles">
+            <p class="def-cgu">
+                <span class="site-def">Indications en cas de faille de sécurité décelée par l'Éditeur</span>
+            </p>
+
+            <span class="def-cgu"> Information de l'Utilisateur en cas de faille de sécurité </span> <br>
+            Nous nous engageons à mettre en oeuvre toutes les mesures techniques et organisationnelles appropriées afin de
+            garantir un niveau de sécurité adapté au regard des risques d'accès accidentels, non autorisés ou illégaux, de
+            divulgation, d'altération, de perte ou encore de destruction des données personnelles vous concernant. Dans
+            l'éventualité où nous prendrions connaissance d'un accès illégal aux données personnelles vous concernant
+            stockées sur nos serveurs ou ceux de nos prestataires, ou d'un accès non autorisé ayant pour conséquence la
+            réalisation des risques identifiés ci-dessus, nous nous engageons à :
+            - Vous notifier l'incident dans les plus brefs délais;
+            - Examiner les causes de l'incident et vous en informer;
+            - Prendre les mesures nécessaires dans la limite du raisonnable afin d'amoindrir les effets négatifs et préjudices pouvant réulter dudic incident
+
+            <br> <br>
+
+            <span class="def-cgu"> Limitation de la responsabilité </span> <br>
+            En aucun cas les engagements définis au point ci-dessus relatifs à la notification en cas de faille de sécurité ne
+            peuvent être assimilés à une quelconque reconnaissance de faute ou de responsabilité quant à la survenance de
+            l'incident en question.
+
+
+        </div>
+
+        <div class="inter-regles">
+            <p class="def-cgu">
+                <span class="site-def">Modification des CGU et de la politique de confidentialité</span>
+            </p>
+
+            <span class="def-cgu"> En cas de modification des présentes CGU, engagement de ne pas baisser le niveau de confidentialité de manière substantielle sans l'information préalable des personnes concernées </span> <br>
+            Nous nous engageons à mettre en oeuvre toutes les mesures techniques et organisationnelles appropriées afin de
+            Nous nous engageons à vous informer en cas de modification substantielle des présentes CGU, et à ne pas baisser
+            le niveau de confidentialité de vos données de manière substantielle sans vous en informer et obtenir votre
+            consentement.
+
+            <br> <br>
+
+            Ces CGU sont mises à disposition par Aboutinnovation et Privacy Tech selon les termes de la Licence Créative Commons Attribution - Partage dans les Mêmes Conditions 4.0 International.
+
+
+        </div>
+
     </div>
 </div>
 

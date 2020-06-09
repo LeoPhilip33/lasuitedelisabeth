@@ -245,7 +245,6 @@
             TARIFICATIONS
         </div>
         <div class="tarificationp3">
-
             <div class="mobileindex3">
                 <div class="flexindex3">
                     <div class="index3prix">
