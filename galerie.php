@@ -174,26 +174,56 @@ var btn7 = document.querySelector('.terrasse');
 
 btn2.addEventListener('click', ()=>{
   btn1.classList.remove('active');
+  btn3.classList.remove('active');
+  btn4.classList.remove('active');
+  btn5.classList.remove('active');
+  btn6.classList.remove('active');
+  btn7.classList.remove('active');
 })
 
 btn3.addEventListener('click', ()=>{
   btn1.classList.remove('active');
+  btn2.classList.remove('active');
+  btn4.classList.remove('active');
+  btn5.classList.remove('active');
+  btn6.classList.remove('active');
+  btn7.classList.remove('active');
 })
 
 btn4.addEventListener('click', ()=>{
   btn1.classList.remove('active');
+  btn2.classList.remove('active');
+  btn3.classList.remove('active');
+  btn5.classList.remove('active');
+  btn6.classList.remove('active');
+  btn7.classList.remove('active');
 })
 
 btn5.addEventListener('click', ()=>{
   btn1.classList.remove('active');
+  btn2.classList.remove('active');
+  btn3.classList.remove('active');
+  btn4.classList.remove('active');
+  btn6.classList.remove('active');
+  btn7.classList.remove('active');
 })
 
 btn6.addEventListener('click', ()=>{
   btn1.classList.remove('active');
+  btn2.classList.remove('active');
+  btn3.classList.remove('active');
+  btn4.classList.remove('active');
+  btn5.classList.remove('active');
+  btn7.classList.remove('active');
 })
 
 btn7.addEventListener('click', ()=>{
   btn1.classList.remove('active');
+  btn2.classList.remove('active');
+  btn3.classList.remove('active');
+  btn4.classList.remove('active');
+  btn5.classList.remove('active');
+  btn6.classList.remove('active');
 })
 
 btn1.addEventListener('click', ()=>{
