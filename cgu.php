@@ -114,6 +114,19 @@
             Les données techniques sont conservées pour la durée strictement nécessaire à la réalisation des finalités visées
             ci-avant.
         </div>
+
+        <div class="inter-regles">
+            <p class="def-cgu">
+                <span class="site-def">Délai de conservation des données personnelles et d'anonymisation</span>
+            </p>
+
+            <span class="def-cgu"> Suppression des données après suppression du compte </span> <br>
+            Des moyens de purge de données sont mis en place afin d'en prévoir la suppression effective dès lors que la
+            durée de conservation ou d'archivage nécessaire à l'accomplissement des finalités déterminées ou imposées est
+            atteinte. Conformément à la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, vous
+            disposez par ailleurs d'un droit de suppression sur vos données que vous pouvez exercer à tout moment en
+            prenant contact avec l'Éditeur.
+        </div>
        
     </div>
 </div>
