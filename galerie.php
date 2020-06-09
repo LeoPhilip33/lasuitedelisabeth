@@ -6,7 +6,7 @@
     <div class="nav_gauche"><strong><a href="index.php">La Suite d'Elisabeth</a></strong></div>
     <div class="nav_droit">
         <div class="nav_droit_div"><a href="index.php">ACCUEIL</a></div>
-        <div class="nav_droit_div active"><a href="galerie.php">GALERIE PHOTOS</a></div>
+        <div class="nav_droit_div active galerie"><a href="galerie.php">GALERIE PHOTOS</a></div>
         <div class="nav_droit_div"><a href="descriptionsuite.php">DESCRIPTION SUITE</a></div>
         <div class="nav_droit_div"><a href="calendrier-reservations.php">CALENDRIER RESERVATIONS</a></div>
         <div class="nav_droit_div"><a href="reserver.php">RÉSERVER</a></div>
@@ -164,6 +164,7 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
+var headerLink = document.querySelector('.galerie');
 var btn1 = document.querySelector('.all');
 var btn2 = document.querySelector('.salon');
 var btn3 = document.querySelector('.cuisine');
@@ -179,6 +180,7 @@ btn2.addEventListener('click', ()=>{
   btn5.classList.remove('active');
   btn6.classList.remove('active');
   btn7.classList.remove('active');
+  headerLink.classList.add('active');
 })
 
 btn3.addEventListener('click', ()=>{
@@ -188,6 +190,7 @@ btn3.addEventListener('click', ()=>{
   btn5.classList.remove('active');
   btn6.classList.remove('active');
   btn7.classList.remove('active');
+  headerLink.classList.add('active');
 })
 
 btn4.addEventListener('click', ()=>{
@@ -197,6 +200,7 @@ btn4.addEventListener('click', ()=>{
   btn5.classList.remove('active');
   btn6.classList.remove('active');
   btn7.classList.remove('active');
+  headerLink.classList.add('active');
 })
 
 btn5.addEventListener('click', ()=>{
@@ -206,6 +210,7 @@ btn5.addEventListener('click', ()=>{
   btn4.classList.remove('active');
   btn6.classList.remove('active');
   btn7.classList.remove('active');
+  headerLink.classList.add('active');
 })
 
 btn6.addEventListener('click', ()=>{
@@ -215,6 +220,7 @@ btn6.addEventListener('click', ()=>{
   btn4.classList.remove('active');
   btn5.classList.remove('active');
   btn7.classList.remove('active');
+  headerLink.classList.add('active');
 })
 
 btn7.addEventListener('click', ()=>{
@@ -224,6 +230,7 @@ btn7.addEventListener('click', ()=>{
   btn4.classList.remove('active');
   btn5.classList.remove('active');
   btn6.classList.remove('active');
+  headerLink.classList.add('active');
 })
 
 btn1.addEventListener('click', ()=>{
@@ -233,6 +240,7 @@ btn1.addEventListener('click', ()=>{
   btn5.classList.remove('active');
   btn6.classList.remove('active');
   btn7.classList.remove('active');
+  headerLink.classList.add('active');
 })
 
 
