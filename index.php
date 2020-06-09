@@ -194,7 +194,7 @@
                             <div class="petittxtgalerie Roboto" > Réservez l'appartement de vos rêves </div>
                         </div>
                         <div class="txtgalerie Roboto" >GALERIE PHOTOS</div>
-                        <a href="../galeriephoto/galerie.php" ><input class="boutongalerie Roboto" type="button" value="VOIR LA GALERIE"></a>
+                        <a href="galerie.php" ><input class="boutongalerie Roboto" type="button" value="VOIR LA GALERIE"></a>
                     </div>
                 </div>
             </div>
@@ -225,14 +225,14 @@
                 <div class="centrerflexpage2">
                     <div>
                         <div class="flexgalerie">
-                            <div class="petittxtgalerie2 Roboto" > Réserver l'appartement de vos rêves </div>
+                            <div class="petittxtgalerie2 Roboto" > Réservez l'appartement de vos rêves </div>
                             <div class="flexflexgalerie">
                                 <div class="barregalerie"></div>
                             </div>
                         </div>
                         <div class="txtgalerie Roboto decalementgachepage2" >DESCRIPTION </div>
                         <div class="txtgalerie Roboto" >DE LA SUITE</div>
-                        <a href="../descriptionsuite/descriptionsuite.php" ><input class="boutongalerie Roboto" type="button" value="VOIR LA DESCRIPTION"></a>
+                        <a href="descriptionsuite.php" ><input class="boutongalerie Roboto" type="button" value="VOIR LA DESCRIPTION"></a>
                     </div>
                 </div>
             </div>
@@ -259,9 +259,9 @@
                                 </div>
                             </div>
                             <div class="Roboto decalementtxtindex3">
-                                La basse saison est comprise entre le 1 <sup>er</sup> octobre au 31 mars.
+                                La basse saison est comprise entre le 1 <sup>er</sup> octobre et le 31 mars.
                             </div>
-                            <input class="boutonindex3 Roboto" type="button" value="RÉSERVER">
+                            <a href="reserver.php"> <input class="boutonindex3 Roboto" type="button" value="RÉSERVER"> </a>
                         </div>
                     </div>
 
@@ -274,15 +274,15 @@
                                 <span class="prixindex3">150<sup>€</sup></span><sub class="nuittxt">/nuit</sub>
                             </div>
                             <div class="couleurindex3">
-                                    <span class="font40 Roboto">Haute saison</span>
+                                    <span class="font40 Roboto">Très haute saison</span>
                                 <div>
-                                    <span class="font20 Roboto">FORTE AFFLUENCE</span>
+                                    <span class="font20 Roboto">TRS FORTE AFFLUENCE</span>
                                 </div>
                             </div>
                             <div class="Roboto decalementtxtindex3">
-                            La haute saison est comprise entre le 1<sup>er</sup> juillet au 30 août.
+                            La très haute saison est comprise entre le 1<sup>er</sup> juillet et le 31 août.
                             </div>
-                            <input class="boutonindex3 Roboto" type="button" value="RÉSERVER">
+                            <a href="reserver.php"> <input class="boutonindex3 Roboto" type="button" value="RÉSERVER"> </a>
                         </div>
                     </div>
                 </div>
@@ -306,9 +306,9 @@
                                     </div>
                                 </div>
                                 <div class="Roboto decalementtxtindex3">
-                                La Haute saison est comprise entre Juin et Septembre
+                                La haute saison est comprise entre le 1<sup>er</sup> juin et le 30 juin puis entre le 1<sup>er</sup> septembre et le 30 septembre.
                                 </div>
-                                <input class="boutonindex3 Roboto" type="button" value="RÉSERVER">
+                                <a href="reserver.php"> <input class="boutonindex3 Roboto" type="button" value="RÉSERVER"> </a>
                             </div>
                         </div>
 
@@ -327,9 +327,9 @@
                                     </div>
                                 </div>
                                 <div class="Roboto decalementtxtindex3">
-                                    La Moyenne saison est comprise entre le 1 <sup>er</sup> avril au 31 mai dont 4-5 jours autour du 14 juillet et noël.
+                                La moyenne saison est comprise entre le 1 <sup>er</sup> avril et le 31 mai ainsi qu'au moment des fêtes de Noël.
                                 </div>
-                                <input class="boutonindex3 Roboto" type="button" value="RÉSERVER">
+                                <a href="reserver.php"> <input class="boutonindex3 Roboto" type="button" value="RÉSERVER"> </a>
                             </div>
                         </div>
                     </div>
@@ -346,7 +346,7 @@
             <div class="nsEcrire">
                 <div class="container">
                     <form method="post">
-                        <p class="centercontainerecrire couleurblanche Roboto" > Vous ne trouvez pas la réponse à votre question, nous somme la, vous pouvez nous envoyer vos questions : </p>
+                        <p class="centercontainerecrire couleurblanche Roboto" > Pour toute question, n'hesitez pas à nous contacter via ce formulaire : </p>
                         <?= $message_envoye ?>
                         <?= $message_formulaire_invalide ?>
                         <?= $message_non_envoye ?>

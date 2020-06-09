@@ -296,21 +296,21 @@
             </div>
             <div class="conditionsstyle">
                 <h3 class="titleconditions"> Fermer la suite </h3> 
-                <p>Veillez à fermer la porte d’entrée et le portail à clés lorsque vous quittez l’appartement.</p>
+                <p>Veillez à fermer la porte d’entrée et le portail à clé lorsque vous quittez l’appartement.</p>
             </div>
         </div>
         <div class="flexconditionsuite">
             <div class="conditionsstyle">
                 <h3 class="titleconditions"> Les arrivées & départs </h3> 
-                <p>Les arrivées sont possibles de 16h30 à 19 h et l'appartement doit être libérée avant 10h le jour du départ.</p>
+                <p>Les arrivées sont possibles de 16h30 à 19 h et l'appartement doit être libéré avant 10h le jour du départ.</p>
             </div>
             <div class="conditionsstyle">
                 <h3 class="titleconditions"> Caution obligatoire </h3> 
-                <p>300 euros par chèque ou espèces à remettre le jour de l’arrivé, restituée le jour du départ si aucune dégradation.</p>
+                <p>300 euros par chèque ou espèces à remettre le jour de l’arrivée. Restitués le jour du départ si aucune dégradation.</p>
             </div>
             <div class="conditionsstyle">
                 <h3 class="titleconditions"> Service de ménage obligatoire </h3> 
-                <p>60 euros à régler à l'arrivé  (au moment du départ, assurez-vous d’avoir vidé le réfrigérateur et le lave-vaisselle, de ne pas avoir laissé de vaisselle sale, d’avoir sorti les poubelles).</p>
+                <p>60 euros à régler à l'arrivée  (au moment du départ, assurez-vous d’avoir vidé le réfrigérateur et le lave-vaisselle, de ne pas avoir laissé de vaisselle sale, d’avoir sorti les poubelles).</p>
             </div>
         </div>
     </div>

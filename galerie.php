@@ -111,7 +111,7 @@
   <span class="colorgalerie"> <div class="filterDiv salon chambre img12">&nbsp;</div> </span>
   <span class="colorgalerie"> <div class="filterDiv salon cuisine img13">&nbsp;</div> </span>
   <span class="colorgalerie"> <div class="filterDiv salon cuisine img14">&nbsp;</div> </span>
-  <span class="colorgalerie"> <div class="filterDiv cuisine vers img15">&nbsp;</div> </span>
+  <span class="colorgalerie"> <div class="filterDiv cuisine img15">&nbsp;</div> </span>
   <span class="colorgalerie"> <div class="filterDiv cuisine img16">&nbsp;</div> </span>
   <span class="colorgalerie"> <div class="filterDiv terrasse img17">&nbsp;</div> </span>
   <span class="colorgalerie"> <div class="filterDiv vers img18">&nbsp;</div> </span>
