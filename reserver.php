@@ -179,8 +179,8 @@
     <div class="margin-top">
         <h1 class="fonttitleglerie Roboto" > RESERVER </h1>
         <hr class="hrtitle">
-        <p class="supporttxttitre Roboto"> Envoyez-nous votre message et nous vous contacterons dans les meilleurs délais <br>
-        Avant d'éffectuer une demande de date de réservation, merci de vérifier si celle-ci n'est pas déja prise : <u> <a href="calendrier-reservations.php" > Voir le calendrier des réservations. </a> </u>
+        <p class="supporttxttitre Roboto"> Envoyez-nous votre message et nous vous contacterons dans les meilleurs délais. <br>
+        Avant d'éffectuer une demande de date de réservation, merci de vérifier si celle-ci n'est pas déja prise : <u> <a href="calendrier-reservations.php" > voir le calendrier des réservations. </a> </u>
         </p>
     </div>
 
@@ -205,7 +205,7 @@
 
                 <div class="flexcontainerreserv">
                     <input class="inputreserv" type="email" id="email" name="email" placeholder="E-mail" required>
-                    <input class="inputreserv espacementflexreserv" name="telephone" type="text" placeholder="Numéro de téléhpone" required>
+                    <input class="inputreserv espacementflexreserv" name="telephone" type="text" placeholder="Numéro de téléphone" required>
                 </div>
 
                 <textarea class="inputreserv" id="message" name="message" placeholder="Votre message ..." required></textarea>

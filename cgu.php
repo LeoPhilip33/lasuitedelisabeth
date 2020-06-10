@@ -42,11 +42,11 @@
                 <u class="site-def">Définitions:</u>
             </p>
 
-            <span class="def-cgu">L'éditeur : </span> La personne,physique ou morale,qui édite les services de communication au public en ligne. <br>
+            <span class="def-cgu">L'éditeur : </span> La personne physique qui édite les services de communication au public en ligne. <br>
 
             <span class="def-cgu">Le site : </span> L'ensemble des sites, pages Internet et services en ligne proposés par l'Éditeur. <br>
 
-            <span class="def-cgu">L'Utilisateur : </span> La personne utilisant le Site et les services.
+            <span class="def-cgu">L'Utilisateur : </span> La personne utilisant le site et les services.
         </div>
 
         <div class="inter-regles">
@@ -135,24 +135,6 @@
             supprimées de nos bases de données.
 
         </div>
-
-        <div class="inter-regles">
-            <p class="def-cgu">
-                <span class="site-def">Suppression du compte</span>
-            </p>
-
-            <span class="def-cgu"> Suppression du compte à la demande </span> <br>
-            L'Utilisateur a la possibilité de supprimer son Compte à tout moment, par simple demande à l'Éditeur OU par le
-            menu de suppression de Compte présent dans les paramètres du Compte le cas échéant.
-
-            <br> <br>
-
-            <span class="def-cgu"> Suppression du compte en cas de violation des CGU </span> <br>
-            En cas de violation d'une ou de plusieurs dispositions des CGU ou de tout autre document incorporé aux
-            présentes par référence, l'Éditeur se réserve le droit de mettre fin ou restreindre sans aucun avertissement
-            préalable et à sa seule discrétion, votre usage et accès aux services, à votre compte et à tous les Sites.
-
-        </div>
        
         <div class="inter-regles">
             <p class="def-cgu">
@@ -190,11 +172,6 @@
             Nous nous engageons à vous informer en cas de modification substantielle des présentes CGU, et à ne pas baisser
             le niveau de confidentialité de vos données de manière substantielle sans vous en informer et obtenir votre
             consentement.
-
-            <br> <br>
-
-            Ces CGU sont mises à disposition par Aboutinnovation et Privacy Tech selon les termes de la Licence Créative Commons Attribution - Partage dans les Mêmes Conditions 4.0 International.
-
 
         </div>
 

@@ -30,7 +30,7 @@
     <div class="margin-top">
         <h1 class="fonttitleCALENDRIER Roboto" > CALENDRIER DES RÉSERVATIONS </h1>
         <hr class="hrtitle">
-        <p class="supporttxttitre Roboto"> Dans cette section vous retrouver toutes les réservations déja effectué par les autres utilisateurs <br> <br>
+        <p class="supporttxttitre Roboto"> Dans cette section vous retrouverez toutes les réservations déjà effectuées par les autres utilisateurs. <br> <br>
         Après avoir repéré des dates de réservation libres, il vous est possible d'aller dans la section <u> <a href="reserver.php">réserver</a></u> afin d'en faire la demande.
         </p>
     </div>

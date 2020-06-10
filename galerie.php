@@ -88,8 +88,8 @@
 
 <div id="myBtnContainer">
   <button class="btn Roboto all active" onclick="filterSelection('all')"> TOUT AFFICHER </button>
-  <button class="btn Roboto salon" onclick="filterSelection('salon')"> SALON </button>
-  <button class="btn Roboto cuisine" onclick="filterSelection('cuisine')"> CUISINE </button>
+  <button class="btn Roboto salon" onclick="filterSelection('salon')" style="display:none;">  </button>
+  <button class="btn Roboto cuisine" onclick="filterSelection('cuisinesal')"> CUISINE-SALON </button>
   <button class="btn Roboto chambre" onclick="filterSelection('chambre')"> CHAMBRE </button>
   <button class="btn Roboto sdb" onclick="filterSelection('sdb')"> SALLE DE BAIN </button>
   <button class="btn Roboto vers" onclick="filterSelection('vers')"> VERRIÈRE SALON </button>
@@ -102,15 +102,15 @@
   <span class="colorgalerie"> <div class="filterDiv terrasse img3">&nbsp;</div> </span>
   <span class="colorgalerie"> <div class="filterDiv sdb img4">&nbsp;</div> </span>
   <span class="colorgalerie"> <div class="filterDiv terrasse img5">&nbsp;</div> </span>
-  <span class="colorgalerie"> <div class="filterDiv salon img6">&nbsp;</div> </span>
-  <span class="colorgalerie"> <div class="filterDiv salon img7">&nbsp;</div> </span>
+  <span class="colorgalerie"> <div class="filterDiv cuisinesal img6">&nbsp;</div> </span>
+  <span class="colorgalerie"> <div class="filterDiv cuisinesal img7">&nbsp;</div> </span>
   <span class="colorgalerie"> <div class="filterDiv sdb img8">&nbsp;</div> </span>
   <span class="colorgalerie"> <div class="filterDiv chambre sdb img9">&nbsp;</div> </span>
   <span class="colorgalerie"> <div class="filterDiv sdb img10">&nbsp;</div> </span>
-  <span class="colorgalerie"> <div class="filterDiv salon sdb img11">&nbsp;</div> </span>
-  <span class="colorgalerie"> <div class="filterDiv salon chambre img12">&nbsp;</div> </span>
-  <span class="colorgalerie"> <div class="filterDiv salon cuisine img13">&nbsp;</div> </span>
-  <span class="colorgalerie"> <div class="filterDiv salon cuisine img14">&nbsp;</div> </span>
+  <span class="colorgalerie"> <div class="filterDiv sdb img11">&nbsp;</div> </span>
+  <span class="colorgalerie"> <div class="filterDiv chambre img12">&nbsp;</div> </span>
+  <span class="colorgalerie"> <div class="filterDiv cuisinesal img13">&nbsp;</div> </span>
+  <span class="colorgalerie"> <div class="filterDiv cuisinesal img14">&nbsp;</div> </span>
   <span class="colorgalerie"> <div class="filterDiv cuisine img15">&nbsp;</div> </span>
   <span class="colorgalerie"> <div class="filterDiv cuisine img16">&nbsp;</div> </span>
   <span class="colorgalerie"> <div class="filterDiv terrasse img17">&nbsp;</div> </span>

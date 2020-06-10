@@ -1521,7 +1521,6 @@ footer{
     justify-content: center;
     margin-top:60px;
     margin-bottom:60px;
-    text-indent: 30px;
 }
 .espacementdescription{
     margin-top:20px;
@@ -1901,4 +1900,7 @@ footer{
 }
 .site-def{
     font-size: 17px;
+}
+.txt_indent{
+    text-indent: 15px;
 }

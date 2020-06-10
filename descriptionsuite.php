@@ -36,7 +36,7 @@
 
 <div class="headdescription">
     <div class="headdelimitation">
-        <div>
+        <div class="txt_indent">
             Cet appartement d’exception de 66 m² entièrement rénové en 2019 est situé au 1er étage d’un immeuble en pierre du 19ème siècle. Cette suite est accessible depuis sa terrasse privée et végétalisée.
         </div>
 

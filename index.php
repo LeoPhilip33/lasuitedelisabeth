@@ -144,7 +144,7 @@
 ?>
 
 <nav>
-    <div class="nav_gauche"><strong><a href="index/index.php">La Suite d'Elisabeth</a></strong></div>
+    <div class="nav_gauche"><strong><a href="index.php">La Suite d'Elisabeth</a></strong></div>
     <div class="nav_droit">
         <div class="nav_droit_div active"><a href="index.php">ACCUEIL</a></div>
         <div class="nav_droit_div"><a href="galerie.php">GALERIE PHOTO</a></div>
@@ -276,7 +276,7 @@
                             <div class="couleurindex3">
                                     <span class="font40 Roboto">Très haute saison</span>
                                 <div>
-                                    <span class="font20 Roboto">TRS FORTE AFFLUENCE</span>
+                                    <span class="font20 Roboto">TRÈS FORTE AFFLUENCE</span>
                                 </div>
                             </div>
                             <div class="Roboto decalementtxtindex3">
@@ -346,7 +346,7 @@
             <div class="nsEcrire">
                 <div class="container">
                     <form method="post">
-                        <p class="centercontainerecrire couleurblanche Roboto" > Pour toute question, n'hesitez pas à nous contacter via ce formulaire : </p>
+                        <p class="centercontainerecrire couleurblanche Roboto" > Pour toute question, n'hésitez pas à nous contacter via ce formulaire : </p>
                         <?= $message_envoye ?>
                         <?= $message_formulaire_invalide ?>
                         <?= $message_non_envoye ?>
