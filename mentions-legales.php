@@ -68,7 +68,7 @@
             <h2> ARTICLE 3 : Accès au site </h2>
             <p class="decalement_mentions-legales">
                 Le site est accessible par tout endroit, 7j/7, 24h/24 sauf cas de force majeure, interruption programmée ou non et pouvant découlant d’une nécessité de maintenance. <br>   
-                En cas de modification, interruption ou suspension des services les sites https://lasuitedelisabeth.fr/ & https://lasuitedelisabeth.com/ ne sauraient être tenu responsable.
+                En cas de modification, interruption ou suspension des services les sites https://lasuitedelisabeth.fr/ & https://lasuitedelisabeth.com/ ne sauraient être tenus responsables.
             </p>
         </div>
 
