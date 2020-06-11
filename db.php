@@ -1,11 +1,26 @@
 <?php
-$dsn = 'mysql:host=localhost;dbname=blogart20'; // Met ou est heberger la BDD + donne le nom de la BDD
-$username = 'root'; // Met l'user dans une varaible
-$password = ''; // Met le MDP dans une variable
-try {
-    $connection = new PDO($dsn, $username, $password); // On donne id et mdp pour se connecter
-    $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-}
-catch (PDOException $error) {
-    die('Failed to connect : ' . $error->getMessage());
-}
+
+        /* 
+        
+        $hostBD = "lasuiteddhadmin.mysql.db";
+        $nomBD = "lasuiteddhadmin";
+        $userBD = "lasuiteddhadmin";
+        $passBD = "ElisabethSuite33ADMIN";
+
+        */
+        
+        $hostBD = "localhost";
+        $nomBD = "lasuiteddhadmin";
+        $userBD = "root";
+        $passBD = "";
+
+
+        try{
+                $bdPdo = new PDO("mysql:dbname=$nomBD;host=$hostBD;charset=utf8", $userBD, $passBD) ;
+        }
+        catch (PDOException $error)
+        {
+                die('Erreur : ' . $error->getMessage());
+        }
+
+?>
