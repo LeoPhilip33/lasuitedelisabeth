@@ -1,7 +1,17 @@
-<?php
-    include 'start-html.php';
-?>
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet"> <!-- Importation de la police Allura-->
+        <link href="https://fonts.googleapis.com/css2?family=Allura&family=Roboto:wght@700&display=swap" rel="stylesheet"> <!-- Roboto B0OLD -->
+        <title>La Suite d'Elisabeth</title>
+        <meta name="description" content="Calendrier des réservations de l'appartement en location à Sarlat - lasuitedelisabeth">
+    </head>
     
+    <body>
+
     <nav>
         <div class="nav_gauche"><strong><a href="index.php">La Suite d'Elisabeth</a></strong></div>
         <div class="nav_droit">
@@ -36,7 +46,7 @@
     </div>
 
     <div class="calendar-reservation">
-        <iframe class="iframe-calendar" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FParis&amp;src=amRyZzFpMmVrbmNtdTU1YjY1b3MxbXAwMGI0djYybzJAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=MWsxdG9jNDQ5a3RmZHFvcXUzb3E1czdhNWo3a20zOXJAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23D6AE00&amp;color=%23515151&amp;showTz=1&amp;showCalendars=0&amp;showTitle=0&amp;showNav=1&amp;showDate=1&amp;showPrint=0&amp;showTabs=0" style="border-width:0" width="550" height="450" frameborder="0" scrolling="no"></iframe>
+        <iframe class="iframe-calendar" title="Calendrier des réservations de l'appartement à Sarlat de lasuitedelisabeth.fr" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FParis&amp;src=amRyZzFpMmVrbmNtdTU1YjY1b3MxbXAwMGI0djYybzJAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=MWsxdG9jNDQ5a3RmZHFvcXUzb3E1czdhNWo3a20zOXJAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23D6AE00&amp;color=%23515151&amp;showTz=1&amp;showCalendars=0&amp;showTitle=0&amp;showNav=1&amp;showDate=1&amp;showPrint=0&amp;showTabs=0" style="border-width:0" width="550" height="450" frameborder="0" scrolling="no"></iframe>
     </div>
 
 

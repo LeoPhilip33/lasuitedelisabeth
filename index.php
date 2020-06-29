@@ -15,7 +15,7 @@
     ********************************************************************************************
     */
     // destinataire est votre adresse mail. Pour envoyer ? plusieurs ? la fois, s?parez-les par une virgule
-    $destinataire = 'leo.philip@mmibordeaux.com';
+    $destinataire = 'lasuitedelisabeth@gmail.com';
 
     // copie ? (envoie une copie au visiteur)
     $copie = 'non'; // 'oui' ou 'non'
@@ -139,9 +139,19 @@
 }; // fin du if (!isset($_POST['envoi']))
 
 ?>
-<?php
-    include 'start-html.php';
-?>
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet"> <!-- Importation de la police Allura-->
+        <link href="https://fonts.googleapis.com/css2?family=Allura&family=Roboto:wght@700&display=swap" rel="stylesheet"> <!-- Roboto B0OLD -->
+        <title>La Suite d'Elisabeth</title>
+        <meta name="description" content="Réservez l'appartement à Sarlat - lasuitedelisabeth">
+    </head>
+    
+    <body>
 
 <nav>
     <div class="nav_gauche"><strong><a href="index.php">La Suite d'Elisabeth</a></strong></div>
@@ -362,7 +372,7 @@
 
                         <textarea class="inputindex" name="message" placeholder="Votre message ..." required></textarea>
 
-                        <p class="couleurblanche modificationp Roboto"> Tous les champs sont obligatoires </p>
+                        <label class="couleurblanche modificationp Roboto"> Tous les champs sont obligatoires </label>
 
                         <div class="centerbouton">
                             <input class="submitindex Roboto" type="submit" value="ENVOYER !">
